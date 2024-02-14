@@ -6,7 +6,7 @@ Welcome to the **Evangelion Wiki** ***API*** documentation!
 
 Since I did not find any API that provides Neon Genesis Evangelion Info while I was working on a evangelion project, I decided to create my own API 🦖.
 
-This **API** is a **RESTful API** that provides information about the **characters**, **episodes**, **mechs**, **angels**, **organizations**, and **locations** featured in the **Neon Genesis Evangelion** series (And Rebuild movies). The **API** is designed to be simple and easy to use, allowing developers to access data from the Evangelion Wiki in their applications.
+This **API** is a **RESTful API** that provides information about the **characters**, **episodes**, **movies**, **mechs**, and **angels** featured in the **Neon Genesis Evangelion** series (And Rebuild movies). The **API** is designed to be simple and easy to use, allowing developers to access data from the Evangelion Wiki in their applications.
 
 ## Base URL
 
