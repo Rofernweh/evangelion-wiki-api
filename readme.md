@@ -1,12 +1,12 @@
 # Evangelion wiki API Documentation
 
-Welcome to the **Evangelion Wiki** ***API*** documentation!
+Welcome to the **Evangelion Wiki** **_API_** documentation!
 
 # History behind the API
 
 Since I did not find any API that provides Neon Genesis Evangelion Info while I was working on a evangelion project, I decided to create my own API 🦖.
 
-This **API** is a **RESTful API** that provides information about the **characters**, **episodes**, **movies**, **mechs**, and **angels** featured in the **Neon Genesis Evangelion** series (And Rebuild movies). The **API** is designed to be simple and easy to use, allowing developers to access data from the Evangelion Wiki in their applications.
+This **API** is a **RESTful API** that provides information about the **characters**, **episodes**, **mechs**, **angels**, **organizations**, and **locations** featured in the **Neon Genesis Evangelion** series (And Rebuild movies). The **API** is designed to be simple and easy to use, allowing developers to access data from the Evangelion Wiki in their applications.
 
 ## Base URL
 
@@ -40,40 +40,39 @@ This endpoint retrieves a list of all characters featured in the Evangelion seri
 
 ```json
 {
-    id: 1,
-    name: "Shinji Ikari",
-    age: 14,
-    gender: "Male",
-    pilot: true,
-    affiliation: "Nerv",
-  },
-  {
-    id: 2,
-    name: "Rei Ayanami",
-    age: 14,
-    gender: "Female",
-    pilot: true,
-    affiliation: "Nerv",
-  }
-```
-
-#### Get Character by ID
-
-```
-GET /characters/{id}
-```
-
-Retrieve details about a specific character using their unique identifier.
-
-```json
-{
   "id": 1,
   "name": "Shinji Ikari",
   "age": 14,
   "gender": "Male",
-  "pilot": true,
-  "affiliation": "Nerv"
+  "birthday": "June 6, 2001",
+  "nationality": "Japanese",
+  "occupation": "Eva Pilot",
+  "height": [{ "cm": "151 cm" }, { "ft": "4'11" }],
+  "hair Color": "Black",
+  "eye Color": "Blue",
+  "affiliation": "Nerv",
+  "debut": "Episode 1",
+  "appear": ["Original Series", "Movies", "Games", "Manga"],
+  "skills": ["Eva Pilot"],
+  "voiceActors": [
+    {
+      "name": "Megumi Ogata",
+      "role": "Shinji Ikari"
+    },
+    {
+      "name": "Ryūnosuke Kamiki",
+      "role": "Shinji Ikari"
+    }
+  ]
 }
+```
+
+#### Get Character by ID
+
+To retrieve details about a specific character using their unique identifier, use the following endpoint:
+
+```
+GET /characters/{id}
 ```
 
 ### 2. Episodes
@@ -90,65 +89,42 @@ Retrieve a list of all episodes from the Evangelion series.
 {
   "id": 1,
   "title": "Angel Attack",
-  "number": 1,
-  "air_date": "October 4, 1995",
-  "director": "Masayuki",
+  "japaneseTitle": "使徒、襲来",
+  "episode": 1,
+  "americanAirDate": "October 21, 2005",
+  "japaneseAirDate": "October 4, 1995",
+  "director": "Kazuya Tsurumaki",
   "writer": "Hideaki Anno",
-  "description": "Shinji Ikari arrives in Tokyo-3 and is brought before NERV's commander, Gendo Ikari. The city is under attack by the Fourth Angel, and NERV deploys Evangelion Unit-01, a giant bio-machine, to destroy it."
-},
-{
-    "id": 2,
-    "title": "The Beast",
-    "number": 2,
-    "air_date": "October 11, 1995",
-    "director": "Kazuya Tsurumaki",
-    "writer": "Hideaki Anno",
-    "description": "Shinji is taken to the NERV headquarters, where he meets the other pilots, Rei Ayanami and Asuka Langley Soryu. The three of them are sent to intercept the Seventh Angel, but they are unable to prevent it from reaching the city."
+  "previousEpisode": "None",
+  "nextEpisode": "The Beast"
 }
 ```
 
 #### Get Episode by ID
 
-```
-GET /episodes/{id}
-```
-
 Retrieve details about a specific episode using its unique identifier.
 
-```json
-{
-  "id": 1,
-  "title": "Angel Attack",
-  "number": 1,
-  "air_date": "October 4, 1995",
-  "director": "Masayuki",
-  "writer": "Hideaki Anno",
-  "description": "Shinji Ikari arrives in Tokyo-3 and is brought before NERV's commander, Gendo Ikari. The city is under attack by the Fourth Angel, and NERV deploys Evangelion Unit-01, a giant bio-machine, to destroy it."
-}
+```
+GET /episodes/{id}
 ```
 
 ### 3. Mechs (Evangelions)
 
 #### Get All Mechs
 
+Retrieve a list of all mechs (Evangelions) featured in the Evangelion series.
+
 ```
 GET /mechs
 ```
 
-Retrieve a list of all mechs (Evangelions) featured in the Evangelion series.
-
 ```json
 {
-    "id": 1,
-    "name": "Evangelion Unit-01",
-    "pilot": "Shinji Ikari",
-    "affiliation": "Nerv"
-    },
-    {
-    "id": 2,
-    "name": "Evangelion Unit-02",
-    "pilot": "Asuka Langley Soryu",
-    "affiliation": "Nerv"
+  "id": 1,
+  "name": "Evangelion Unit-00",
+  "type": "EVA",
+  "pilot": "Rei Ayanami",
+  "affiliation": "Nerv"
 }
 ```
 
@@ -160,143 +136,33 @@ GET /mechs/{id}
 
 Retrieve details about a specific mech (Evangelion) using its unique identifier.
 
-```json
-{
-  "id": 1,
-  "name": "Evangelion Unit-01",
-  "pilot": "Shinji Ikari",
-  "affiliation": "Nerv"
-}
-```
-
 ### 4. Angels
 
 #### Get All Angels
+
+Retrieve a list of all Angels featured in the Evangelion series.
 
 ```
 GET /angels
 ```
 
-Retrieve a list of all Angels featured in the Evangelion series.
-
 ```json
 {
   "id": 1,
   "name": "Sachiel",
   "classification": "Third Angel",
-  "height": "40 meters",
-  "affiliation": "Angels"
-},
-{
-  "id": 2,
-  "name": "Shamshel",
-  "classification": "Fourth Angel",
-  "height": "43 meters",
-  "affiliation": "Angels"
+  "appearance": "Episode 1",
+  "abilities": ["AT Field", "Energy Blasts"],
+  "description": "Sachiel is the Third Angel and the first to appear in the series. It attacks Tokyo-3 in the first episode but is defeated by Shinji Ikari piloting Evangelion Unit-01.",
+  "image": "sachiel.jpg"
 }
-
 ```
 
 #### Get Angel by ID
 
+Retrieve details about a specific Angel using its unique identifier.
 ```
 GET /angels/{id}
-```
-
-Retrieve details about a specific Angel using its unique identifier.
-
-```json
-{
-  "id": 1,
-  "name": "Sachiel",
-  "classification": "Third Angel",
-  "height": "40 meters",
-  "affiliation": "Angels"
-}
-```
-
-### 5. Organizations
-
-#### Get All Organizations
-
-```
-GET /organizations
-```
-
-Retrieve a list of all organizations featured in the Evangelion series.
-
-```json
-{
-  "id": 1,
-  "name": "Nerv",
-  "type": "Paramilitary organization",
-  "location": "Tokyo-3"
-},
-{
-  "id": 2,
-  "name": "Seele",
-  "type": "Secret society",
-  "location": "Unknown"
-}
-```
-
-#### Get Organization by ID
-
-```
-GET /organizations/{id}
-```
-
-Retrieve details about a specific organization using its unique identifier.
-
-```json
-{
-  "id": 1,
-  "name": "Nerv",
-  "type": "Paramilitary organization",
-  "location": "Tokyo-3"
-}
-```
-
-### 6. Locations
-
-#### Get All Locations
-
-```
-GET /locations
-```
-
-Retrieve a list of all locations featured in the Evangelion series.
-
-```json
-{
-  "id": 1,
-  "name": "Tokyo-3",
-  "type": "City",
-  "country": "Japan",
-},
-{
-  "id": 2,
-  "name": "GeoFront",
-  "type": "Underground cavern",
-  "country": "Japan", 
-}
-```
-
-#### Get Location by ID
-
-```
-GET /locations/{id}
-```
-
-Retrieve details about a specific location using its unique identifier.
-
-```json
-{
-  "id": 1,
-  "name": "Tokyo-3",
-  "type": "City",
-  "country": "Japan",
-}
 ```
 
 ## Responses
@@ -305,13 +171,30 @@ The API returns responses in JSON format. Here's an example response for retriev
 
 ```json
 {
-  "id": 1,
-  "name": "Shinji Ikari",
-  "age": 14,
-  "gender": "Male",
-  "pilot": true,
-  "affiliation": "Nerv"
-}
+        "id": 1,
+        "name": "Shinji Ikari",
+        "age": 14,
+        "gender": "Male",
+        "birthday": "June 6, 2001",
+        "nationality": "Japanese",
+        "occupation": "Eva Pilot",
+        "height": [ {"cm": "151 cm"}, {"ft": "4'11"}],
+        "hair Color": "Black",
+        "eye Color": "Blue",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Games", "Manga"],
+        "skills": [
+            "Eva Pilot"
+        ],
+        "voiceActors":  [{
+            "name": "Megumi Ogata",
+            "role": "Shinji Ikari"},
+            {
+                "name": "Ryūnosuke Kamiki",
+                "role": "Shinji Ikari"
+            }]
+       }
 ```
 
 ## Errors
@@ -333,7 +216,7 @@ To ensure fair usage of the API and to prevent abuse, rate limiting is enforced.
 
 ## Conclusion
 
-This concludes the documentation for the Evangelion Wiki API. Feel free to explore and integrate them into your applications :3 to access information about  this beautiful anime of **Neon Genesis Evangelion**. 
+This concludes the documentation for the Evangelion Wiki API. Feel free to explore and integrate them into your applications :3 to access information about this beautiful anime of **Neon Genesis Evangelion**.
 
 If you have any questions or need further assistance, don't hesitate to contact me.
 
@@ -342,3 +225,6 @@ Github :octocat: : [@Rofernweh](https://github.com/Rofernweh)
 Instagram : [@Rofernweh](https://www.instagram.com/Rofernweh/)
 
 Mail : [@Rofernweh](mailto:rodrigo.rocuant@ieee.org)
+
+
+Also if you want to contribute to the API, you can do it by visiting the [Github Repository](https://github.com/Rofernweh/evangelion-wiki-api)
