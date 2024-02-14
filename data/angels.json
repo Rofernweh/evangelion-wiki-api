@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "Sachiel",
+      "classification": "Third Angel",
+      "appearance": "Episode 1",
+      "abilities": ["AT Field", "Energy Blasts"],
+      "description": "Sachiel is the Third Angel and the first to appear in the series. It attacks Tokyo-3 in the first episode but is defeated by Shinji Ikari piloting Evangelion Unit-01.",
+      "image": "sachiel.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shamshel",
+      "classification": "Fourth Angel",
+      "appearance": "Episode 4",
+      "abilities": ["Tentacles", "Electric Discharge"],
+      "description": "Shamshel is the Fourth Angel. It attacks Tokyo-3 in episode 4, where it is fought and defeated by Unit-01 piloted by Shinji Ikari.",
+      "image": "shamshel.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ramiel",
+      "classification": "Fifth Angel",
+      "appearance": "Episode 6",
+      "abilities": ["Particle Beam", "AT Field"],
+      "description": "Ramiel is the Fifth Angel. It appears in episode 6 and is known for its powerful particle beam attack. It poses a significant threat to Tokyo-3 and requires a complex strategy to defeat.",
+      "image": "ramiel.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gaghiel",
+      "classification": "Sixth Angel",
+      "appearance": "Episode 8",
+      "abilities": ["Underwater Adaptation", "Jaws"],
+      "description": "Gaghiel is the Sixth Angel and the first to attack Tokyo-3 underwater. It appears in episode 8, where it battles Evangelion Unit-02 piloted by Asuka Langley Soryu.",
+      "image": "gaghiel.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Israfel",
+      "classification": "Seventh Angel",
+      "appearance": "Episode 9",
+      "abilities": ["Synchronization", "Regeneration"],
+      "description": "Israfel is the Seventh Angel. It appears in episode 9 and possesses the ability to split into two separate entities. It engages in a complex battle with Evangelion Units 01 and 02.",
+      "image": "israfel.jpg"
+    }
+  ]
+  

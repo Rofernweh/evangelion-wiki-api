@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Evangelion Unit-00",
+      "type": "EVA",
+      "pilot": "Rei Ayanami",
+      "affiliation": "Nerv"
+    },
+    {
+      "id": 2,
+      "name": "Evangelion Unit-01",
+      "type": "EVA",
+      "pilot": "Shinji Ikari",
+      "affiliation": "Nerv"
+    },
+    {
+      "id": 3,
+      "name": "Evangelion Unit-02",
+      "type": "EVA",
+      "pilot": "Asuka Langley Soryu",
+      "affiliation": "Nerv"
+    },
+    {
+      "id": 4,
+      "name": "Evangelion Unit-03",
+      "type": "EVA",
+      "pilot": "Toji Suzuhara",
+      "affiliation": "Nerv"
+    },
+    {
+      "id": 5,
+      "name": "Evangelion Mark.06",
+      "type": "EVA",
+      "pilot": "Kaworu Nagisa",
+      "affiliation": "Nerv"
+    },
+    {
+      "id": 6,
+      "name": "Mass Production Evangelions",
+      "type": "EVA",
+      "pilot": "Dummy Plug System",
+      "affiliation": "SEELE"
+    }
+  ]
+  

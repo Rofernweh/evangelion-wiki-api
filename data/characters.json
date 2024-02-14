@@ -1,0 +1,590 @@
+[
+    {
+        "id": 1,
+        "name": "Shinji Ikari",
+        "age": 14,
+        "gender": "Male",
+        "birthday": "June 6, 2001",
+        "nationality": "Japanese",
+        "occupation": "Eva Pilot",
+        "height": [ {"cm": "151 cm"}, {"ft": "4'11"}],
+        "hair Color": "Black",
+        "eye Color": "Blue",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Games", "Manga"],
+        "skills": [
+            "Eva Pilot"
+        ],
+        "voiceActors":  [{
+            "name": "Megumi Ogata",
+            "role": "Shinji Ikari"},
+            {
+                "name": "Ryūnosuke Kamiki",
+                "role": "Shinji Ikari"
+            }]
+       },
+    {
+        "id": 2,
+        "name": "Rei Ayanami",
+        "age": 14,
+        "gender": "Genderless",
+        "birthday": "March 30, 2001",
+        "nationality": "Japanese",
+        "occupation": "Eva Pilot",
+        "height": [ {"cm": "148 cm"}, {"ft": "4'10"}],
+        "hair Color": "Blue",
+        "eye Color": "Red",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Games", "Manga"],
+        "skills": [
+            "Eva Pilot"
+        ],
+        "voiceActors":  [{
+            "name": "Megumi Hayashibara",
+            "role": "Rei Ayanami"}]
+    },
+    {
+        "id": 3,
+        "name": "Asuka Langley Soryu (Asuka Langley Shikinami)",
+        "age": 14,
+        "gender": "Female",
+        "birthday": "December 4, 2001",
+        "nationality": "German",
+        "occupation": "Eva Pilot",
+        "height": [ {"cm": "153 cm"}, {"ft": "5'0"}],
+        "hair Color": "Ginger",
+        "eye Color": "Blue",
+        "affiliation": "Nerv",
+        "debut": "Episode 8",
+        "appear": ["Original Series", "Movies", "Games", "Manga"],
+        "skills": [
+            "Eva Pilot",
+            "German Speaker",
+            "English Speaker",
+            "College Graduate"
+        ],
+        "voiceActors":  [{
+            "name": "Yuko Miyamura",
+            "role": "Asuka Langley Soryu"}]
+    },
+    {
+        "id": 4,
+        "name": "Misato Katsuragi",
+        "age": 29,
+        "gender": "Female",
+        "birthday": "December 8, 1986",
+        "nationality": "Japanese",
+        "occupation": "Operations Director",
+        "height": [ {"cm": "166 cm"}, {"ft": "5'5"}],
+        "hair Color": "Purple",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Games", "Manga"],
+        "skills": [
+            "Leader",
+            "Mother Figure"
+        ],
+        "voiceActors": [
+            {
+                "name": "Kotono Mitsuishi",
+                "role": "Misato Katsuragi"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Ryoji Kaji",
+        "age": 30,
+        "gender": "Male",
+        "birthday": "June 17, 1985",
+        "nationality": "Japanese",
+        "occupation": "Special Inspector",
+        "height": [ {"cm": "182 cm"}, {"ft": "5'11"}],
+        "hair Color": "Brown",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 8",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Special Inspector",
+            "English Speaker"
+        ],
+        "voiceActors": [
+            {
+                "name": "Koichi Yamadera",
+                "role": "Ryoji Kaji"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Gendo Ikari (Gendo Rokubungi)",
+        "age": 48,
+        "gender": "Male",
+        "birthday": "April 29, 1967",
+        "nationality": "Japanese",
+        "occupation": "Commander",
+        "height": [ {"cm": "192 cm"}, {"ft": "6'3"}],
+        "hair Color": "Black",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Commander of Nerv"
+        ],
+        "voiceActors": [
+            {
+                "name": "Fumihiko Tachiki",
+                "role": "Gendo Ikari"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Yui Ikari",
+        "age": 27,
+        "gender": "Female",
+        "birthday": "March 30, 1977",
+        "nationality": "Japanese",
+        "occupation": "Scientist",
+        "height": [ {"cm": "169 cm"}, {"ft": "5'6"}],
+        "hair Color": "Brown",
+        "eye Color": "Brown",
+        "affiliation": ["Nerv", "Gehirn"],
+        "debut": "Episode 21",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Scientist",
+            "Bioengineer"
+        ],
+        "voiceActors": [
+            {
+                "name": "Megumi Hayashibara",
+                "role": "Yui Ikari"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Kaworu Nagisa",
+        "age": 15,
+        "gender": "Male",
+        "birthday": "September 13, 2000",
+        "nationality": "Japanese",
+        "occupation": "Eva Pilot",
+        "height": [ {"cm": "150 cm"}, {"ft": "4'11"}],
+        "hair Color": "Silver",
+        "eye Color": "Red",
+        "affiliation": "Nerv",
+        "debut": "Episode 24",
+        "appear": ["Original Series", "Movies", "Games", "Manga"],
+        
+        "skills": [
+            "Eva Pilot",
+            "Angel"
+        ],
+        "voiceActors": [
+            {
+                "name": "Akira Ishida",
+                "role": "Kaworu Nagisa"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Mari Illustrious Makinami",
+        "age": 14,
+        "gender": "Female",
+        "birthday": "Unknown",
+        "nationality": "British",
+        "occupation": "Eva Pilot",
+        "height": [ {"cm": "158 cm"}, {"ft": "5'2"}],
+        "hair Color": "Brown",
+        "eye Color": "Blue",
+        "affiliation": "Nerv",
+        "debut": "Evangelion: 2.0 You Can (Not) Advance",
+        "appear": ["Movies", "Manga"],
+        "skills": [
+            "Eva Pilot",
+            "English Speaker"
+        ],
+        "voiceActors": [
+            {
+                "name": "Maaya Sakamoto",
+                "role": "Mari Illustrious Makinami"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Toji Suzuhara",
+        "age": 14,
+        "gender": "Male",
+        "birthday": "December 26, 2001",
+        "nationality": "Japanese",
+        "occupation": "Student",
+        "height": [ {"cm": "156 cm"}, {"ft": "5'1"}],
+        "hair Color": "Black",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 3",
+        "appear": ["Original Series", "Movies", "Games", "Manga"],
+        "skills": [
+            "Eva Pilot",
+            "Boxer"
+        ],
+        "voiceActors": [
+            {
+                "name": "Tomokazu Seki",
+                "role": "Toji Suzuhara"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Kensuke Aida",
+        "age": 14,
+        "gender": "Male",
+        "birthday": "September 12, 2001",
+        "nationality": "Japanese",
+        "occupation": "Student",
+        "height": [ {"cm": "147 cm"}, {"ft": "4'10"}],
+        "hair Color": "Light brown",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 3",
+        "appear": ["Original Series", "Movies", "Games", "Manga"],
+        "skills": [
+            "Eva Pilot",
+            "Photographer"
+        ],
+        "voiceActors": [
+            {
+                "name": "Tetsuya Iwanaga",
+                "role": "Kensuke Aida"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Hikari Horaki",
+        "age": 14,
+        "gender": "Female",
+        "birthday": "February 18, 2002",
+        "nationality": "Japanese",
+        "occupation": "Student",
+        "height": [ {"cm": "153 cm"}, {"ft": "5'0"}],
+        "hair Color": "Brown",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 3",
+        "appear": ["Original Series", "Movies", "Games", "Manga"],
+        "skills": [
+            "Eva Pilot",
+            "Cook"
+        ],
+        "voiceActors": [
+            {
+                "name": "Junko Iwao",
+                "role": "Hikari Horaki"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Mana Kirishima",
+        "age": 14,
+        "gender": "Female",
+        "birthday": "April 11, 2001",
+        "nationality": "Japanese",
+        "occupation": "Student",
+        "height": [ {"cm": "155 cm"}, {"ft": "5'1"}],
+        "hair Color": "Ginger",
+        "eye Color": "Green",
+        "affiliation": "Nerv",
+        "debut": "Neon Genesis Evangelion: Girlfriend of Steel",
+        "appear": ["Games", "Manga"],
+        "skills": [
+            "Mecha Pilot"
+        ],
+        "voiceActors": [
+            {
+                "name": "Megumi Hayashibara",
+                "role": "Mana Kirishima"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Maya Ibuki",
+        "age": 24,
+        "gender": "Female",
+        "birthday": "July 11, 1991",
+        "nationality": "Japanese",
+        "occupation": "Computer Technician",
+        "height": [ {"cm": "164 cm"}, {"ft": "5'4"}],
+        "hair Color": "Brown",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 8",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "First Lieutenant",
+            "Assistant",
+            "Scientist"
+        ],
+        "voiceActors": [
+            {
+                "name": "Miki Nagasawa",
+                "role": "Maya Ibuki"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Makoto Hyuga",
+        "age": 28,
+        "gender": "Male",
+        "birthday": "April 13",
+        "nationality": "Japanese",
+        "occupation": "Computer Technician",
+        "height": [ {"cm": "179 cm"}, {"ft": "5'10"}],
+        "hair Color": "Black",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "First Lieutenant",
+            "Assistant",
+            "Scientist"
+        ],
+        "voiceActors": [
+            {
+                "name": "Hiro Yūki",
+                "role": "Makoto Hyuga"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Shigeru Aoba",
+        "age": 28,
+        "gender": "Male",
+        "birthday": "May 5",
+        "nationality": "Japanese",
+        "occupation": "Computer Technician",
+        "height": [ {"cm": "180 cm"}, {"ft": "5'11"}],
+        "hair Color": "Black",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "First Lieutenant"
+        ],
+        "voiceActors": [
+            {
+                "name": "Takehito Koyaasu",
+                "role": "Shigeru Aoba"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Naoko Akagi",
+        "age": 48,
+        "gender": "Female", 
+        "birthday": "Unknown",
+        "nationality": "Japanese",
+        "occupation": "Scientist",
+        "height": [ {"cm": "Unkown"}, {"ft": "Unknown"}],
+        "hair Color": "Purple",
+        "eye Color": "Brown",
+        "affiliation": "Gehirn",
+        "debut": "Episode 21",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Scientist",
+            "Bioengineer"
+        ],
+        "voiceActors": [
+            {
+                "name": "Mika Doi",
+                "role": "Naoko Akagi"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Ritsuko Akagi",
+        "age": 30,
+        "gender": "Female",
+        "birthday": "Unknown",
+        "nationality": "Japanese",
+        "occupation": "Head Scientist",
+        "height": [ {"cm": "166 cm"}, {"ft": "5'7"}],
+        "hair Color": "Blonde",
+        "eye Color": "Blue",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Scientist"
+        ], 
+        "voiceActors": [
+            {
+                "name": "Yuriko Yamaguchi",
+                "role": "Ritsuko Akagi"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Kozo Fuyutsuki",
+        "age": 60,
+        "gender": "Male",
+        "birthday": "April 9, 1956",
+        "nationality": "Japanese",
+        "occupation": "Vice Commander",
+        "height": [ {"cm": "189 cm"}, {"ft": "6'2"}],
+        "hair Color": "Grey",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Vice Commander"
+        ],
+        "voiceActors": [
+            {
+                "name": "Motomu Kiyokawa",
+                "role": "Kozo Fuyutsuki"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Kyoko Zeppelin Soryu",
+        "age": 27,
+        "gender": "Female",
+        "birthday": "1974",
+        "nationality": "German",
+        "occupation": "Scientist",
+        "height": [ {"cm": "Unknown"}, {"ft": "Unknown"}],
+        "hair Color": "Blonde",
+        "eye Color": "Blue",
+        "affiliation": "Nerv",
+        "debut": "Episode 22",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Scientist"
+        ],
+        "voiceActors": [
+            {
+                "name": "Maria Kawamura",
+                "role": "Kyoko Zeppelin Soryu"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Mr. Langley",
+        "age": 30,
+        "gender": "Male",
+        "birthday": "Unknown",
+        "nationality": "German",
+        "occupation": "Unknown",
+        "height": [ {"cm": "Unknown"}, {"ft": "Unknown"}],
+        "hair Color": "Unknown",
+        "eye Color": "Unknown",
+        "affiliation": "Unknown",
+        "debut": "Unknown",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Unknown"
+        ],
+        "voiceActors": [
+            {
+                "name": "Unknown",
+                "role": "Mr. Langley"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Pen Pen",
+        "age": null,
+        "gender": "Male",
+        "birthday": "Unknown",
+        "nationality": "Unknown",
+        "occupation": "Pet",
+        "height": [ {"cm": "Unknown"}, {"ft": "Unknown"}],
+        "hair Color": "None",
+        "eye Color": "Green",
+        "affiliation": "Nerv",
+        "debut": "Episode 1",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Pet"
+        ],
+        "voiceActors": [
+            {
+                "name": "Megumi Hayashibara",
+                "role": "Pen Pen"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Keel Lorenz",
+        "age": "Unknown",
+        "gender": "Male",
+        "birthday": "Unknown",
+        "nationality": "Unknown",
+        "occupation": "Commander",
+        "height": [ {"cm": "163"}, {"ft": "5'4"}],
+        "hair Color": "White",
+        "eye Color": "Blue",
+        "affiliation": "Seele",
+        "debut": "Episode 2",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Commander"
+        ],
+        "voiceActors": [
+            {
+                "name": "Unknown",
+                "role": "Keel Lorenz"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Shiro Tokita",
+        "age": null,
+        "gender": "Male",
+        "birthday": "Unknown",
+        "nationality": "Japanese",
+        "occupation": "Scientist",
+        "height": [ {"cm": "Unknown"}, {"ft": "Unknown"}],
+        "hair Color": "Black",
+        "eye Color": "Brown",
+        "affiliation": "Nerv",
+        "debut": "Episode 07",
+        "appear": ["Original Series", "Movies", "Manga"],
+        "skills": [
+            "Executive"
+        ],
+        "voiceActors": [
+            {
+                "name": "Unknown",
+                "role": "Shiro Tokita"
+            }
+        ]
+    }
+    ]
